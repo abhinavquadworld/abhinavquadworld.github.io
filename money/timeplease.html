@@ -1,0 +1,80 @@
+<html>
+<head>
+    <!--the right vclik -->
+		<script language=JavaScript>
+			
+			var message="you cant right click";
+			///////////////////////////////////
+			function clickIE4(){
+			if (event.button==2){
+			alert(message);
+			return false;
+			}
+			}
+			function clickNS4(e){
+			if (document.layers||document.getElementById&&!document.all){
+			if (e.which==2||e.which==3){
+			alert(message);
+			return false;
+			}
+			}
+			}
+			if (document.layers){
+			document.captureEvents(Event.MOUSEDOWN);
+			document.onmousedown=clickNS4;
+			}
+			else if (document.all&&!document.getElementById){
+			document.onmousedown=clickIE4;
+			}
+			document.oncontextmenu=new Function("alert(message);return false")
+			
+			</script>
+			<!--u cant-->
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script type="text/javascript" src="https://blockchain.info/Resources/js/pay-now-button.js"></script>
+		<script async src="https://arc.io/widget.min.js#bWsbqbGH"></script>
+</head>
+<body>
+
+<h1><center>stay here for 20 minutes dont close this tab and then enter name in form to get registered for a bot code</center></h1>
+<iframe src="dir.htm" title="redirection" height="600" width="600"></iframe>
+<marquee>you have to wait 20 minutes or pay a dollar</marquee>
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
