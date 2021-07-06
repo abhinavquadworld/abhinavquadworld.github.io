@@ -1,0 +1,32 @@
+  .border-glow {
+border: 3px solid blue;
+animation: 4s infinite glow;
+}
+@keyframes glow {
+0% {
+  border-color: red;
+}
+25% {
+  border-color: blue;
+}
+75% {
+  border-color: yellow;
+}
+100% {
+  border-color: purple;
+}
+}
+@-webkit-keyframes glow {
+0% {
+  border-color: red;
+}
+25% {
+  border-color: blue;
+}
+75% {
+  border-color: yellow;
+}
+100% {
+  border-color: purple;
+}
+}
