@@ -1,0 +1,70 @@
+body {
+    
+    font-family: grundschrift, sans-serif;
+    color: #000;
+    text-align: center;
+  }
+  
+  #container {
+    width: 75%;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  #container h1 {
+    text-align: center;
+    color: #000;
+  }
+  
+  #quoteContainer {
+    width: 75%;
+    padding: 10px;
+    margin: 30px auto;
+    text-align: center;
+    height: 100px;
+  }
+  
+  #buttonContainer {
+    width: 100%;
+    text-align: center;
+  }
+  
+  #quoteButton {
+    background-color: #000;
+    width: 100px;
+    margin-top: 10px;
+    border: 2px solid #000;
+    border-radius: 3px;
+    color: #FAB050;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+  }
+  
+  #quoteButton:active {
+    cursor: pointer;
+  }
+  
+  .tweetButton {
+    background-color: #7EEEE4;
+    width: 50px;
+    margin-top: 10px;
+    border: 2px solid #7EEEE4;
+    border-radius: 3px;
+    font-family: inherit;
+    font-weight: bold;
+    padding: 5px;
+    text-decoration: none;
+  }
+  
+  .tweetButton:before {
+    font-family: FontAwesome;
+    margin: 10px;
+  }
+  
+  #quoteName {
+    text-align: center;
+  }
